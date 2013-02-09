@@ -1,0 +1,71 @@
+﻿body
+{
+	margin: 0;
+	padding: 0;
+	background: black;
+}
+
+#draw, #draw-from
+{
+	background: white;
+	margin: 10px 0 0 10px;
+	padding: 0;
+}
+
+.box
+{
+	width: 600px;
+	height: 52px;
+	background: #333;
+	margin: 10px 0 0 10px;
+}
+
+.color
+{
+	width: 32px;
+	height: 32px;
+	margin: 10px 0 0 10px;
+	float: left;
+}
+
+#current
+{
+	width: 64px;
+	height: 188px;
+	margin: 10px 0 0 10px;
+	float: left;
+}
+
+.box canvas
+{
+	margin: 10px 0 0 10px;
+	float: left;
+	background: white;
+}
+
+#replay, #done, #next, #cancel, #draw-btn, #download, #download-full
+{
+	margin: 12px -4px 0 10px;
+}
+
+#draw-btn
+{
+}
+
+#draw-box
+{
+	display: none;
+}
+
+#drawn, #original
+{
+	background: white;
+	margin: 10px 0 0 10px;
+}
+
+#pieces, #people
+{
+	color: white;
+	padding: 16px 5px 16px 16px;
+	float: left;
+}
